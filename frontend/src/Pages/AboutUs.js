@@ -1,7 +1,6 @@
 import HomeNavbar from "../Components/HomeNavbar";
 import Footer from "../Components/Footer";
 import CommonNavbar from "../Components/CommonNavbar";
-import namanPic from "../assets/img/Naman.jpg";
 import {useEffect, useState} from "react";
 import verifyToken from "../utils/verifyToken";
 import {useDispatch} from "react-redux";
@@ -166,19 +165,19 @@ const AboutUs = () => {
                             <a href="#">
                                 <div className="overflow-hidden">
                                 <img className="hover:scale-110 transition-all duration-500 rounded-lg sm:rounded-none sm:rounded-l-lg w-[16rem] h-[13rem]"
-                                     src={namanPic}
-                                     alt="Naman Saini" />
+                                     src="#"
+                                     alt="Ashish Sharma" />
                                 </div>
                             </a>
                             <div className="p-5">
                                 <h3 className="text-xl font-bold tracking-tight text-white">
-                                    <a href="#">Naman Saini</a>
+                                    <a href="#">Ashish Sharma</a>
                                 </h3>
                                 <span className="text-gray-400">Full Stack Web Developer</span>
                                 <p className="mt-3 mb-4 font-light text-gray-400">Worked as Frontend Developer and manages social relations</p>
                                 <ul className="flex space-x-4 sm:mt-0">
                                     <li>
-                                        <a target={"_blank"} href="https://www.instagram.com/saini_naman_18/" className=" text-white hover:text-white">
+                                        <a target={"_blank"} href="https://www.instagram.com/_itsashish31/" className=" text-white hover:text-white">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 className="h-5 w-5 bg-gradient-to-b from-[#405DE6] via-[#833AB4] via-[#C13584] via-[#E1306C] via-[#FD1D1D] via-[#F56040] to-[#FFDC80] rounded-md"
@@ -190,7 +189,7 @@ const AboutUs = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a target={"_blank"} href="https://twitter.com/namansaini45" className="text-[#00acee] hover:text-white">
+                                        <a target={"_blank"} href="https://twitter.com/AshishS36014677" className="text-[#00acee] hover:text-white">
                                             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"
                                                  aria-hidden="true">
                                                 <path
@@ -199,7 +198,7 @@ const AboutUs = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a target={"_blank"} href="https://github.com/NamanSaini18" className="text-gray-300 hover:text-white">
+                                        <a target={"_blank"} href="https://github.com/theashishsharma" className="text-gray-300 hover:text-white">
                                             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"
                                                  aria-hidden="true">
                                                 <path fillRule="evenodd"
@@ -209,7 +208,7 @@ const AboutUs = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a target={"_blank"} href="https://www.linkedin.com/in/naman-saini-970924226/" className="text-blue-500 hover:text-white">
+                                        <a target={"_blank"} href="https://www.linkedin.com/in/itsashishsharma/" className="text-blue-500 hover:text-white">
                                             <svg
                                                 className="w-5 h-5  fill-current"
                                                 xmlns="http://www.w3.org/2000/svg"
